@@ -10,12 +10,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 
 /**
- * Springstaven. Højreklik for at springe ca. 7 blokke op og 14 blokke frem i den retning, man kigger.
+ * Springstaven. Højreklik for at springe ca. 7 blokke op og 15 blokke frem i den retning, man kigger.
  *
  * Tallene er regnet ud fra Minecrafts fysik: hvert tick (1/20 sekund) trækker tyngdekraften 0,08
  * fra farten opad og ganger den med 0,98, og farten fremad bliver ganget med 0,91 (luftmodstand).
  *   - 1,10 opad giver toppunkt ca. 7 blokke over jorden og ca. 27 ticks i luften
- *   - 1,37 fremad giver ca. 14 blokke på de 27 ticks
+ *   - 1,50 fremad giver ca. 15 blokke på de 27 ticks
  */
 public class JumpStaffItem extends Item {
 	public static final double JUMP_UP = 1.10;      // fart opad (blokke pr. tick)
