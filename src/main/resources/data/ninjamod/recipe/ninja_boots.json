@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"W W",
+		"I I"
+	],
+	"key": {
+		"W": "minecraft:black_wool",
+		"I": "minecraft:iron_ingot"
+	},
+	"result": {
+		"id": "ninjamod:ninja_boots",
+		"count": 1
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "ninjamod:ninja"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "ninjamod:ninja"
+			}
+		]
+	}
+}

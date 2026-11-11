@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "ninjamod",
+	"version": "${version}",
+	"name": "Ninja Mod",
+	"description": "Tilføjer sort ninja-rustning (giver Speed I), en springstav, kastestjerner og en mini-katana.",
+	"authors": ["Jens"],
+	"license": "MIT",
+	"icon": "assets/ninjamod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dk.jens.ninjamod.NinjaMod"],
+		"client": ["dk.jens.ninjamod.NinjaModClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

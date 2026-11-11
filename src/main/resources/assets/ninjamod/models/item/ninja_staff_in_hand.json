@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/spear_in_hand",
+	"textures": {
+		"layer0": "ninjamod:item/ninja_staff_in_hand"
+	}
+}

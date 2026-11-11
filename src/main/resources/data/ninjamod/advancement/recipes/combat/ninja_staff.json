@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_stick": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:stick"
+					}
+				]
+			}
+		},
+		"has_feather": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:feather"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "ninjamod:ninja_staff"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_stick",
+			"has_feather",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"ninjamod:ninja_staff"
+		]
+	}
+}

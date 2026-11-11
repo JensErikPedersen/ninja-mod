@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"  F",
+		" / ",
+		"/  "
+	],
+	"key": {
+		"F": "minecraft:feather",
+		"/": "minecraft:stick"
+	},
+	"result": {
+		"id": "ninjamod:ninja_staff",
+		"count": 1
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"ninjamod:ninja_helmet",
+		"ninjamod:ninja_chestplate",
+		"ninjamod:ninja_leggings",
+		"ninjamod:ninja_boots"
+	]
+}
